@@ -139,7 +139,7 @@ Real-time dashboard integration
 
 👤 Author
 
-Aadi Shewale
+Aaditya Shewale
 
 Data Analyst | Data Science Enthusiast
 
