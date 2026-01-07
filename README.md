@@ -1,148 +1,92 @@
-# Customer-Behavior-Analysis
-📌 Project Overview  This project focuses on analyzing customer shopping behavior to uncover insights related to sales, revenue, subscriptions, demographics, and purchasing patterns. An interactive Power BI dashboard is created to help stakeholders make data-driven business decisions. 
-The project demonstrates skills in data cleaning, SQL analysis, and business intelligence visualization.
+# 🛒 Customer Behavior Analysis – Power BI & SQL Project
 
-🎯 Business Objective
+## 🎯 Use Case
+This project analyzes **customer shopping behavior** to uncover insights related to:
+- Sales and revenue performance  
+- Customer demographics (age, gender)  
+- Subscription vs non-subscription behavior  
+- Product category performance  
+- Shipping preferences and review patterns  
 
-Understand customer purchasing patterns
+The goal is to help business stakeholders make **data-driven decisions** using an interactive dashboard.
 
-Analyze revenue and sales across categories
+---
 
-Study customer demographics (age, gender)
+## 📌 Project Overview
+Understanding customer behavior is critical for improving sales strategies, customer retention, and overall business growth.
 
-Evaluate subscription impact on customer behavior
+This project focuses on analyzing customer-level transaction data using **SQL, Python, and Power BI**. The cleaned and transformed data is visualized through an **interactive Power BI dashboard**, enabling stakeholders to explore trends, compare segments, and identify actionable insights.
 
-Provide actionable insights through an interactive dashboard
+The project demonstrates strong skills in **data cleaning, SQL analysis, and business intelligence visualization**.
 
-🧰 Tools & Technologies Used
+---
 
-Power BI – Data modeling & dashboard creation
+## 🎯 Business Objectives
+- Understand customer purchasing patterns  
+- Analyze revenue and sales across product categories  
+- Study customer demographics such as age group and gender  
+- Evaluate the impact of subscriptions on customer behavior  
+- Deliver actionable insights through an interactive dashboard  
 
-SQL – Data querying and analysis
+---
 
-Python (Pandas, NumPy) – Data cleaning & preprocessing
+## 🗂️ Dataset Description
+The dataset contains customer shopping and transaction details, including:
 
-Excel / CSV – Data storage
+- Customer ID  
+- Gender  
+- Age Group  
+- Product Category (Clothing, Accessories, Footwear, Outerwear)  
+- Purchase Amount  
+- Subscription Status  
+- Shipping Type  
+- Review Ratings  
 
-GitHub – Version control & project hosting
+---
 
-📂 Dataset Description
+## 🔄 Data Cleaning & Preparation
+- Removed duplicate records  
+- Handled missing and inconsistent values  
+- Standardized category and column names  
+- Created calculated fields for analysis  
+- Prepared a clean dataset for Power BI visualization  
 
-The dataset contains customer-level transaction data including:
+---
 
-Customer ID
+## 🧰 Tools & Technologies Used
+- **Power BI** – Data modeling and interactive dashboard creation  
+- **SQL** – Data querying and analytical logic  
+- **Python (Pandas, NumPy)** – Data cleaning and preprocessing  
+- **Excel / CSV** – Data storage and handling  
+- **GitHub** – Version control and project hosting  
 
-Gender
+---
 
-Age Group
+## 📊 Dashboard Features
 
-Product Category (Clothing, Accessories, Footwear, Outerwear)
+### 🔹 Key KPIs
+- **Total Customers:** 3.9K  
+- **Average Purchase Amount:** $59.76  
+- **Average Review Rating:** 3.75  
 
-Purchase Amount
+### 🔹 Visual Insights
+- Percentage of customers by subscription status  
+- Revenue and sales by product category  
+- Revenue and sales by age group  
 
-Subscription Status
+### 🔹 Interactive Filters
+- Gender  
+- Subscription Status  
+- Product Category  
+- Shipping Type  
 
-Shipping Type
+---
 
-Review Ratings
+## 📈 Key Insights
+- Approximately **73% of customers are non-subscribers**  
+- The **Clothing category** generates the highest revenue and sales  
+- **Young adults** contribute the most to overall revenue  
+- Subscription users show **higher engagement and purchase consistency**  
+- Faster shipping options positively influence purchasing behavior  
 
-🔄 Data Cleaning & Preparation
 
-Removed duplicate records
-
-Handled missing values
-
-Standardized category names
-
-Created calculated fields for analysis
-
-Prepared clean dataset for Power BI visualization
-
-📊 Dashboard Features
-🔹 Key KPIs
-
-Total Customers: 3.9K
-
-Average Purchase Amount: $59.76
-
-Average Review Rating: 3.75
-
-🔹 Visual Insights
-
-% of customers by subscription status
-
-Revenue & sales by product category
-
-Revenue & sales by age group
-
-Interactive filters for:
-
-Gender
-
-Subscription status
-
-Category
-
-Shipping type
-
-📈 Key Insights
-
-Majority of customers are non-subscribers (~73%)
-
-Clothing category generates the highest revenue and sales
-
-Young adults contribute the most to revenue
-
-Subscription users show higher engagement and purchase consistency
-
-Faster shipping options positively influence purchasing behavior
-
-📁 Project Structure
-Customer-Behavior-Analysis/
-│
-├── PowerBI_Dashboard/
-│   └── Customer_Behavior_Dashboard.pbix
-│
-├── SQL/
-│   └── customer_shopping_behavior_project.sql
-│
-├── Data/
-│   └── customer_shopping_cleaned.csv
-│
-├── Python/
-│   └── customer_shopping_behavior.ipynb
-│
-├── Business_Document/
-│   └── Business Problem Document.pdf
-│
-└── README.md
-
-🚀 How to Use This Project
-
-Clone the repository
-
-Open the Power BI .pbix file
-
-Load the cleaned dataset if required
-
-Explore insights using interactive filters
-
-💡 Future Enhancements
-
-Customer churn prediction model
-
-RFM (Recency, Frequency, Monetary) analysis
-
-Machine learning-based customer segmentation
-
-Real-time dashboard integration
-
-👤 Author
-
-Aaditya Shewale
-
-Data Analyst | Data Science Enthusiast
-
-Forex Trading & Market Analysis Background
-
-📫 Feel free to connect with me on LinkedIn or explore my other projects!
